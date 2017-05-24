@@ -59,7 +59,7 @@ pipeline {
 	  echo 'Post pipeline action - success'
     }
 
-    stable {
+    unstable {
 	  echo 'Post pipeline action - stable'
     }
   }
