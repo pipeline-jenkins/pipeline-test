@@ -44,23 +44,23 @@ pipeline {
   post {
 
     always {
-	  echo 'Post pipeline action - always'
+	echo 'Post pipeline action - always'
     }
 
     changed {
-	  echo 'Post pipeline action - changed'
+	echo 'Post pipeline action - changed'
     }
 
     failure {
-	  echo 'Post pipeline action - failure'
+	echo 'Post pipeline action - failure'
     }
 
     success {
-	  echo 'Post pipeline action - success'
+	echo 'Post pipeline action - success'
     }
 
     unstable {
-	  echo 'Post pipeline action - stable'
+	echo 'Post pipeline action - stable'
     }
   }
 
