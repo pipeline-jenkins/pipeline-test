@@ -18,8 +18,12 @@ pipeline {
             echo 'Test stage'
             
           },
-          "": {
+          "error": {
             echo 'Parallel test 1'
+            
+          },
+          "": {
+            echo 'Parallel test 3'
             
           }
         )
